@@ -1,0 +1,76 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html {
+  margin: 0;
+  font-size: 100%
+}
+
+body {
+  margin: 1em;
+}
+
+header {
+  margin: 3em 2em;
+  text-align: center;
+  font-family: 'Sanchez', serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: 'Sanchez', serif;
+  text-align: center;
+  margin-top: 2em;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 1em auto;
+  max-width: 40em;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+.young {
+  display: block;
+  margin: 4em auto;
+  max-width: 22em;
+}
+
+.icon {
+  width: 3em;
+}
+
+.banner {
+  width: 100%;
+  max-width: 27em;
+  float: right;
+}
+
+.music {
+  font-family: 'Sanchez', serif;
+  display: block;
+  margin: 10em 2em;
+  max-width: 20em;
+}
